@@ -1,12 +1,18 @@
-import { Button, Input } from '../../components'
-import * as S from './styles'
+import { Button, Input, Card, Item, Container } from '../../components'
 
 const HomeIndex = () => {
   return (
-    <S.Container>
-      <Input />
-      <Button title={'ola'} />
-    </S.Container>
+    <>
+      <Container direction="center">
+        <Item>
+          <Input />
+        </Item>
+        <Item>
+          <Button title="OK" />
+        </Item>
+      </Container>
+      <Card title="Adicionar" />
+    </>
   )
 }
 
