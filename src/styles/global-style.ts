@@ -12,8 +12,10 @@ export const GlobalStyle = createGlobalStyle`
   html, body{
     color: ${colors.white};
     background: ${colors.dark};
-    height: 100%;
+    height: 100vh;
     width: 100vw;
+    margin: 0;
+    padding: 0;
   }
 
   a {

@@ -5,7 +5,7 @@ const HomeIndex = () => {
   return (
     <S.Container>
       <Input />
-      <Button />
+      <Button title={'ola'} />
     </S.Container>
   )
 }
