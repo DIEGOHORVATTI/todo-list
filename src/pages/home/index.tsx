@@ -1,9 +1,11 @@
+import { Button, Input } from '../../components'
 import * as S from './styles'
 
 const HomeIndex = () => {
   return (
     <S.Container>
-      <h1>hello world</h1>
+      <Input />
+      <Button />
     </S.Container>
   )
 }
