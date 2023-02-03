@@ -7,7 +7,6 @@ import Document, {
   DocumentContext
 } from 'next/document'
 import { ServerStyleSheet } from 'styled-components'
-import Link from 'next/link'
 
 export default class MyDocument extends Document {
   static async getInitialProps(ctx: DocumentContext): Promise<{
@@ -45,13 +44,6 @@ export default class MyDocument extends Document {
       <Html lang="pt-BR">
         <Head />
         <body>
-          <nav>
-            <ul>
-              <li>
-                <Link href={{ pathname: '/' }}>Home</Link>
-              </li>
-            </ul>
-          </nav>
           <Main />
           <NextScript />
         </body>

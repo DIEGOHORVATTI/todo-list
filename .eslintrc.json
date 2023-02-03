@@ -40,5 +40,5 @@
     "expect": true,
     "jsdom": true,
     "JSX": true
-}
+  }
 }

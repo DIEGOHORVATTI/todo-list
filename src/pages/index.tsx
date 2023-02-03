@@ -1,6 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Router from '@G.pages/Routes'
+// import Router from '@G.pages/Routes'
+import HomeIndex from './home'
 
 const Home: NextPage = () => {
   return (
@@ -11,7 +12,8 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <Router />
+        {/* <Router /> */}
+        <HomeIndex />
       </main>
     </>
   )
