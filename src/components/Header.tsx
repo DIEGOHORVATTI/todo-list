@@ -1,10 +1,10 @@
 import { Grid } from '@mui/material'
 
-export const Home = () => {
+export const Header = () => {
   return (
     <Grid container>
       <Grid item xs={12}>
-        Home
+        Header
       </Grid>
     </Grid>
   )
