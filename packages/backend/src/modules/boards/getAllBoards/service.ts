@@ -1,6 +1,6 @@
 import { HTTPError } from '@/errors'
 
-import { KanbanBoard } from '@/models/KanbanBoard'
+import { IKanbanBoard, KanbanBoard } from '@/models/KanbanBoard'
 
 export const getAllBoardsService = async () => {
   const boards = await KanbanBoard.find().catch(error => {
